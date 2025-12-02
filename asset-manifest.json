@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/reservas-padel/static/js/main.56bd8d46.js",
-    "index.html": "/reservas-padel/index.html",
-    "main.56bd8d46.js.map": "/reservas-padel/static/js/main.56bd8d46.js.map"
+    "main.js": "/static/js/main.56bd8d46.js",
+    "index.html": "/index.html",
+    "main.56bd8d46.js.map": "/static/js/main.56bd8d46.js.map"
   },
   "entrypoints": [
     "static/js/main.56bd8d46.js"
