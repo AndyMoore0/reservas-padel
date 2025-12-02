@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OSAKA Pádel – Reservas</title>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Paleta Complejo 655 -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              c655: {
+                bg: "#1a1a1a",   /* fondo */
+                card: "#222222", /* tarjetas/boxes */
+                line: "#2e2e2e", /* bordes */
+                text: "#f2f2f2", /* texto principal */
+                mute: "#bcbcbc", /* texto suave */
+                y: "#f9c300"     /* amarillo marca */
+              }
+            },
+            borderRadius: { "2xl": "1rem" }
+          }
+        }
+      };
+</script>
+    <style>
+      html, body, #root { height:100%; background:#0A0A0A; color:#fff; font-family:'Inter',sans-serif; }
+    </style>
+  </head>
+  <body>
+    <noscript>Necesitás habilitar JavaScript.</noscript>
+
+    <!-- ⭐️ ESTE DIV ES CLAVE -->
+    <div id="root"></div>
+
+    <!-- CRA inyecta el bundle aquí automáticamente -->
+  </body>
+</html>
